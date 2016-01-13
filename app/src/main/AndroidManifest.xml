@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pccontrol" >
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:name=".AppApplication"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.NoActionBar" >
+        <activity
+            android:name=".LoginAty"
+            android:windowSoftInputMode="adjustResize"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".ControlPPTAty"/>
+        <activity android:name=".PPTOpenremindAty"></activity>
+        <activity android:name=".MouseControlAty"
+            android:windowSoftInputMode="adjustResize"></activity>
+        <activity android:name=".AdbDebugAty"/>
+        <activity android:name=".KeyBoardInputAty" android:windowSoftInputMode="adjustResize">
+
+        </activity>
+        <activity android:name=".RemoteShutdownAty"></activity>
+    </application>
+
+</manifest>

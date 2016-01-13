@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/window_background"
+    android:gravity="center"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/start_adbdebug_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="直接进入无线调试"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="4dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        >
+
+        <EditText
+            android:id="@+id/pc_ip_et"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/edittext_state"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:hint="请输入计算机的ip地址"
+            android:textColorHint="@android:color/darker_gray"
+            android:textColor="@android:color/black"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+
+        >
+        <Button
+            android:id="@+id/connect_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/adb_wireless_btn_style"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="连接"
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="window_background_gradient_start_color">#ff17a1c4</color>
+    <color name="window_background_gradient_end_color">#ff9c6ddc</color>
+    <color name="key_bg_normal">#50ffffff</color>
+    <color name="key_bg_press">#80ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="blood_red">#fff23737</color>
+    <color name="green">#2ABF5E</color>
+</resources>

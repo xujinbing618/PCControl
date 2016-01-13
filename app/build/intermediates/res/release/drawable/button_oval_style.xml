@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+     <corners android:radius="100dp"/>
+    <solid android:color="#ffffff"/>
+</shape><!-- From: file:/G:/developer/Android/developTools/apktool/ApkTool/apktool-install-windows-r05-ibot/PCControl/app/src/main/res/drawable/button_oval_style.xml -->
